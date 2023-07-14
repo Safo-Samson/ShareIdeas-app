@@ -6,7 +6,7 @@ body {
 	font-weight: 400;
 	line-height: 1.5;
 	color: #333;
-	background-color: #f4f4f4;
+	background-color: #e6f4e9;
 	overflow-x: hidden;
 }
 
@@ -19,12 +19,14 @@ header {
 
 #modal-btn {
 	border: none;
-	background: none;
+	background: rgb(60, 59, 59);
+	border-radius: 50%;
 	color: green;
 	cursor: pointer;
 	position: absolute;
 	top: 10px;
 	left: 10px;
+	font-size: 20px;
 }
 
 .modal {
@@ -43,7 +45,7 @@ header {
 	margin: 10% auto;
 	width: 600px;
 
-	background-color: rgb(64, 185, 50);
+	background-color: green;
 	color: #fff;
 	padding: 20px;
 	border-radius: 10px;
