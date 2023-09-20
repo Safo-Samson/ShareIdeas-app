@@ -64,7 +64,7 @@ class IdeaForm {
           <textarea name="text" id="idea-text"></textarea>
         </div>
         <div class="form-control">
-          <label for="tag">Tag</label>
+          <label for="tag">Tagssssssssssssss</label>
           <select name="tag" id="tag">
             <option value="technology">Technology</option>
             <option value="software">Software</option>
@@ -78,6 +78,7 @@ class IdeaForm {
         <button class="btn" type="submit" id="submit">Submit</button>
       </form>
     `;
+
     this._form = document.querySelector("#idea-form");
     this.addEventListeners();
   }
