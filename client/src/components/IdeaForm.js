@@ -64,7 +64,7 @@ class IdeaForm {
           <textarea name="text" id="idea-text"></textarea>
         </div>
         <div class="form-control">
-          <label for="tag">Tagssssssssssssss</label>
+          <label for="tag">Tag</label>
           <select name="tag" id="tag">
             <option value="technology">Technology</option>
             <option value="software">Software</option>
