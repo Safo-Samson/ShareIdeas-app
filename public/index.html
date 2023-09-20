@@ -11,14 +11,22 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
+
 		<title>Random Ideas</title>
+		<link rel="icon" href="/assets/logo.jpg" />
 		<script defer="defer" src="bundle.js"></script>
 		<link href="main.css" rel="stylesheet" />
 	</head>
 	<body>
 		<header>
-			<h1>Share Ideas & Favourite Quotes!</h1>
+			<a  href="/">
+				<div class="logo">
+                    <img  src="/assets/logo.jpg" alt="logo" />
+				</div>
+			</a>
+			<h1 class="title-header">Share Ideas & Favourite Quotes!</h1>
 			<button id="modal-btn"><i class="fa-solid fa-plus fa-2x"></i></button>
+			
 		</header>
 		<div class="container"><div id="idea-list" class="ideas"></div></div>
 		<div id="modal" class="modal">

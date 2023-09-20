@@ -24,9 +24,18 @@ header {
 	color: green;
 	cursor: pointer;
 	position: absolute;
+	
+	font-size: 20px;
+}
+.logo{
+	position: absolute;
 	top: 10px;
 	left: 10px;
-	font-size: 20px;
+}
+.logo img{
+    height: 100px;
+	width: 100px;
+	border-radius: 100%;
 }
 
 .modal {
@@ -177,4 +186,12 @@ form label {
 	.modal-box {
 		width: 90%;
 	}
+	.logo img{
+    height: 70px;
+	width: 70px;
+}
+.title-header{
+	font-size: 20px;
+	margin-left: 80px;
+}
 }
