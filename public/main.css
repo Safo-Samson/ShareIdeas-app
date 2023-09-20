@@ -24,7 +24,7 @@ header {
 	color: green;
 	cursor: pointer;
 	position: absolute;
-	
+	margin-bottom: 10px;
 	font-size: 20px;
 }
 .logo{
@@ -123,6 +123,7 @@ form label {
 	position: relative;
 	background-color: #fff;
 	margin: 10px;
+	
 	padding: 20px 15px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
